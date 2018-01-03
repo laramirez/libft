@@ -74,8 +74,6 @@ Param. #1 L’adresse de la chaine de caractère dont il faut libérer la mé-
 moire et mettre le pointeur à NULL.
 Retour Rien.
 Fonctions libc Free(3).
-9
-Libft Ta propre bibliothèque à toi tout seul
 •
 ft_strclr
 Prototype void ft_strclr(char *s);
@@ -119,8 +117,6 @@ Param. #2 La fonction à appeler sur chaque caractère de s.
 Retour La chaine “fraiche” résultant des applications successives de
 f.
 Fonctions libc malloc(3)
-10
-Libft Ta propre bibliothèque à toi tout seul
 •
 ft_strmapi
 Prototype char * ft_strmapi(char const *s, char
@@ -156,8 +152,6 @@ Param. #2 La seconde des deux chaines à comparer.
 Param. #3 Le nombre de caractères à comparer au maximum.
 Retour 1 ou 0 selon que les deux chaines sont égales ou non.
 Fonctions libc Aucune.
-11
-Libft Ta propre bibliothèque à toi tout seul
 •
 ft_strsub
 Prototype char * ft_strsub(char const *s, unsigned int
@@ -200,8 +194,6 @@ Param. #1 La chaine de caractères à trimmer.
 Retour La chaine de caractère “fraiche” trimmée ou bien une copie
 de s sinon.
 Fonctions libc malloc(3)
-12
-Libft Ta propre bibliothèque à toi tout seul
 •
 ft_strsplit
 Prototype char ** ft_strsplit(char const *s, char c);
@@ -240,8 +232,6 @@ Description Affiche la chaine s sur la sortie standard.
 Param. #1 La chaine de caractères à afficher.
 Retour Rien.
 Fonctions libc write(2).
-13
-Libft Ta propre bibliothèque à toi tout seul
 •
 ft_putendl
 Prototype void ft_putendl(char const *s);
@@ -281,8 +271,6 @@ Param. #1 La chaine de caractères à écrire.
 Param. #2 Le descripteur de fichier.
 Retour Rien.
 Fonctions libc write(2).
-14
-Libft Ta propre bibliothèque à toi tout seul
 •
 ft_putnbr_fd
 Prototype void ft_putnbr_fd(int n, int fd);
@@ -291,5 +279,3 @@ Param. #1 L’entier à écrire.
 Param. #2 Le descripteur de fichier.
 Retour Rien.
 Fonctions libc write(2).
-
-
